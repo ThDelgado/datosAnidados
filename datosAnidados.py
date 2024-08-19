@@ -17,7 +17,7 @@ for estudiante in estudiantes:
 print()
 print ("los estudiantes mayores de 18 años y numero primo de edad son: ")
 for estudiante in estudiantes: 
-    if (estudiante["edad"] > 18) and (estudiante["edad"] % 2 == 0 and estudiante["edad"] % 3 == 0):        
+    if (estudiante["edad"] > 18) and ( estudiante["edad"] %  estudiante["edad"] == 0 and  estudiante["edad"] % 1  == int and estudiante["edad"] % 2 == int and estudiante["edad"] % 3 == int):        
          print (estudiante)
     else:
         print ("no hay estudiantes mayores de 18 con edad numero primo")
